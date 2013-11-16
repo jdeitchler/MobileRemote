@@ -1,34 +1,8 @@
-<!doctype html>
 <html>
-    <meta charset="utf-8">
-    <title>Load remote content into object element</title>
-
-    <style type="text/css">
-html, body {
-    height: 100%;
-}
-
-div {
-    height: 99%;
-}
-
-object {
-    width: 100%;
-    min-height: 100%;
-}     
-    </style>
-
-    </head>
-
-    <body>
-        <div id="siteloader"></div>
-
-        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-        <script>
-        $("#siteloader")
-            .html('<object data="http://jasonmobile.azurewebsites.net">');
-        </script>
-
-    </body>
-
+<frameset frameborder="no" framespacing="0">   
+  <frame name="t" src="http://jasonmobile.azurewebsites.net" scrolling="no" noresize > 
+</frameset> 
+</body>
 </html>
+
+
